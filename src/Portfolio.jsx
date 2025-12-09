@@ -1,7 +1,7 @@
 
 import React, {useState} from 'react';
 import profilePic from './images/image.jpeg'
-function App() {
+function Portfolio() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const toggleMobile = ()=> setMobileOpen(v=>!v);
   return (
@@ -81,4 +81,4 @@ function App() {
   );
 }
 
-export default App;
+export default Portfolio;
