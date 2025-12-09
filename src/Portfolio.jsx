@@ -32,7 +32,7 @@ function Portfolio() {
           </button>
         </header>
 
-        {/* mobile nav here */}
+        {/* mobile nav part */}
         <div className={`md:hidden ${mobileOpen ? 'block' : 'hidden'} mb-4`}>
           <nav className="flex flex-col gap-3 text-sm" >
             <a href="#about" className="py-2" onClick={() => setMobileOpen(false)}>About</a>
@@ -58,7 +58,7 @@ function Portfolio() {
               </div> 
             </div>
             <div className="hidden md:flex items-center justify-center">
-            {/* Simple illustration / placeholder */}
+            {/* Photo part */}
             <div className="w-64 h-64 rounded-2xl bg-gradient-to-br from-slate-100 to-white border p-6 flex items-center justify-center">
             <div className="text-center">
             <img
