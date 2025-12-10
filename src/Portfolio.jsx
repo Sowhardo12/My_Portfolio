@@ -47,11 +47,11 @@ function Portfolio() {
         <main id='home' className='py-12'>
           <div className='grid gap-8 md:grid-cols-2 md:items-center'>
             <div>
-              <h1 className='text-5xl sm:text-5xl font-extralight sm:font-extrabold  leading-tight '>
-                Hi, I'm <span className='text-transparnt bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-500'>Sowhardo</span> - a final year CSE Student.
+              <h1 className='text-5xl sm:text-4xl font-extralight sm:font-extrabold  leading-tight '>
+                Hi, I'm <span className='text-transparnt bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-500'>Sowhardo</span> - a Software Engineer Aspirant.
               </h1>
               <p className='mt-4 text-slate-700 max-w-xl' >
-                I build minimal, reliable web apps using React and modern tools. Currently putting my focus on learning MERN stack and Algorithmic Problem solving on LeetCode. I love to solve problems, learn technological concepts and build.
+              I am learning Full Stack Wev development and my area of interest is backend systems. Apart from that, currently focusing on acquiring relevant skills and problem solving on LeetCode :D 
               </p>
               <div className='mt-6 flex gap-3'>
                 <a href="#projects" className='inline-block px-5 py-2 rounded-md bg-orange-600 text-white font-medium shadow-sm hover:opacity-60'>View Projects</a>
