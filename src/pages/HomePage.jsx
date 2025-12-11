@@ -26,9 +26,10 @@ function HomePage(){
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#about" className="hover:text-indigo-500">About</a>
-            <a href="#projects" className="hover:text-indigo-500">Projects</a>
+            {/* <a href="#projects" className="hover:text-indigo-500">Projects</a> */}
             <a href="#skills" className="hover:text-indigo-500">Skills</a>
-            <a href="#contact" className="hover:text-indigo-500">Contact</a>
+            {/* <a href="#contact" className="hover:text-indigo-500">Contact</a> */}
+            <a href="/achievements" className="hover:text-indigo-500">Achievements</a>
             <Link to="/resume" className="ml-4 px-3 py-1 border rounded-md hover:bg-slate-100 dark:hover:bg-slate-800">Resume</Link>
             <button onClick={toggleDark} className="px-3 py-1 rounded-md border text-sm ml-3">{isDark ? 'Dark' : 'Light'} Mode</button>
           </nav>
@@ -47,9 +48,10 @@ function HomePage(){
         {mobileOpen && (
           <nav className="md:hidden flex flex-col gap-3 text-sm mb-4">
             <a href="#about" className="py-2">About</a>
-            <a href="#projects" className="py-2">Projects</a>
+            {/* <a href="#projects" className="py-2">Projects</a> */}
             <a href="#skills" className="py-2">Skills</a>
-            <a href="#contact" className="py-2">Contact</a>
+            <a href="/achievements" className="hover:text-indigo-500">Achievements</a>
+            {/* <a href="#contact" className="py-2">Contact</a> */}
             <Link to="/resume" className="py-2 border rounded-md text-center">Resume</Link>
             <button onClick={toggleDark} className="border py-2 rounded-md">{isDark ? 'Dark' : 'Light'} Mode</button>
           </nav>
@@ -59,7 +61,7 @@ function HomePage(){
           <h1 className="text-4xl lightbold">Hi, I'm Sowhardo, a Final Semester CS student & a Software Enginner Aspirant.</h1>
           <p className="mt-4 text-slate-700 dark:text-slate-300 max-w-xl">Web Apps | MERN stack | LeetCode problem solving | System Deisgn Learner</p>
           <div className="mt-6 flex gap-3">
-            <a href="#projects" className="px-5 py-2 rounded-md bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900">View Projects</a>
+            <a href="/projects" className="px-5 py-2 rounded-md bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900">View Projects</a>
             <a href="#contact" className="px-5 py-2 rounded-md border">Contact Me</a>
           </div>
         </main>
