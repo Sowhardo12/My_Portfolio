@@ -189,6 +189,8 @@ function HomePage(){
                 <li>VS Code: main development environment</li>
                 <li>Vite: preferred React build tool</li>
                 <li>Postman: testing APIs</li>
+                <li>Docker, KVM, Virtual Machines, Kubernates (basic)</li>
+                <li>Basic knowledge on Cloud Computing</li>
             </ul>
             </div>
 
