@@ -2,11 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaPhone, FaEnvelope, FaDiscord } from "react-icons/fa";
 
+// import { useContext } from "react";
+// import { ThemeContext } from "../context/ThemeContext.jsx";
+
+
 
 function HomePage(){
     const [mobileOpen, setMobileOpen] = useState(false);
-    const [isDark,setDark]= useState(false);
-
+    const [isDark,setDark]= useState(false);     
+    
     const toggleDark = ()=>{
         setDark(!isDark);
     }

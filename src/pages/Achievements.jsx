@@ -2,10 +2,15 @@
 import { Link } from "react-router-dom";
 import agentxPDF from "../assets/promptEngr.pdf";
 import copilotPDF from "../assets/copilot365.pdf";
-
+import React, { useState, useEffect } from 'react';
 
 
 function Achievements() {
+    const [isDark,setDark]= useState(false);     
+        
+        const toggleDark = ()=>{
+            setDark(!isDark);
+        }
   const achievements = [
     {
       name: "AgentX AI Prompt Engineer Level 1",
@@ -20,11 +25,13 @@ function Achievements() {
   ];
 
   return (
+    <div className={isDark?"dark":""}>
     <div className="min-h-screen bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 px-6">
       <div className="max-w-4xl mx-auto py-16">
 
         <div className="mb-10">
           <Link to="/" className="text-indigo-500 border rounded-2xl p-2 hover:underline">&larr; Back to Home</Link>
+          <button onClick={toggleDark} className="px-3 py-1 rounded-md border text-sm ml-3">{isDark ? 'Dark' : 'Light'} Mode</button>
           <h1 className="text-4xl font-bold mt-4">Achievements</h1>
         </div>
 
@@ -51,6 +58,7 @@ function Achievements() {
         </div>
 
       </div>
+    </div>
     </div>
   );
 }

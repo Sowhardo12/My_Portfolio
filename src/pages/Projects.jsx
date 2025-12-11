@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
-
+import React, { useState, useEffect } from 'react';
 const Projects = ()=>{
+    const [isDark,setDark]= useState(false);     
+        
+        const toggleDark = ()=>{
+            setDark(!isDark);
+        }
     const projects = [
 
         {
@@ -24,10 +29,12 @@ const Projects = ()=>{
 
     ];
     return(
+        <div className={isDark?"dark":""}>
         <div className="min-h-screen bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 px-6" >
             <div className="max-w-4xl mx-auto py-16" >
                 <div className="mb-10">
                     <Link to="/" className="text-indigo-500 border rounded-2xl p-2 hover:underline">&larr; Back to Home</Link>
+                    <button onClick={toggleDark} className="px-3 py-1 rounded-md border text-sm ml-3">{isDark ? 'Dark' : 'Light'} Mode</button>
                     <h1 className="text-4xl font-bold mt-4">Projects</h1>
                 </div>
                 <div className="grid md:grid-cols-2 gap-8">
@@ -56,6 +63,7 @@ const Projects = ()=>{
                      ))}
                 </div>
             </div>
+        </div>
         </div>
     );
 }
