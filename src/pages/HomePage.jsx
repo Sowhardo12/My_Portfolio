@@ -62,7 +62,7 @@ function HomePage(){
         )}
         {/* Personal Section */}
         <main className="py-12">
-          <h1 className="text-4xl lightbold">Hi, I'm Sowhardo, a Final Semester CS student & a Software Enginner Aspirant.</h1>
+          <h1 className="text-4xl lightbold">Hi, I'm Sowhardo, a Final Semester CS student & a Software Engineer Aspirant.</h1>
           <p className="mt-4 text-slate-700 dark:text-slate-300 max-w-xl">Web Apps | MERN stack | LeetCode problem solving | System Deisgn Learner</p>
           <div className="mt-6 flex gap-3">
             <a href="/projects" className="px-5 py-2 rounded-md bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900">View Projects</a>
