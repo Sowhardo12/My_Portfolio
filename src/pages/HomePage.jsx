@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaPhone, FaEnvelope, FaDiscord } from "react-icon
 // import { useContext } from "react";
 // import { ThemeContext } from "../context/ThemeContext.jsx";
 
-
+import profilePic from "../images/image.jpeg"
 
 function HomePage(){
     const [mobileOpen, setMobileOpen] = useState(false);
@@ -70,7 +70,7 @@ function HomePage(){
           </div>
         </main>
         {/* Placeholder sections */}
-        <section
+        {/* <section
           id="about"
           className="py-24 border-t dark:border-slate-700">
           <div className="max-w-3xl mx-auto">
@@ -94,7 +94,50 @@ function HomePage(){
               system design knowledge to make applications scalable and bug-free.
             </p>
           </div>
-        </section>
+        </section> */}
+        <section
+  id="about"
+  className="py-24 border-t dark:border-slate-700"
+>
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-3xl font-bold mb-10 text-center md:text-left">About Me</h2>
+
+    {/* Parent container */}
+    <div className="flex flex-col md:flex-row-reverse items-center md:items-start gap-10">
+
+      {/* --- Image on Right (Desktop) --- */}
+      <div className="flex-shrink-0">
+        <img
+          src={profilePic}
+          alt="Sowhardo"
+          className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover shadow-lg"
+        />
+      </div>
+
+      {/* --- Text on Left --- */}
+      <div className="text-center md:text-left space-y-6 md:space-y-4">
+        <p className="text-lg leading-7 text-slate-700 dark:text-slate-300">
+          I'm Sowhardo, currently in my final semester at BRAC University.
+          I'm a software engineer aspirant with a strong interest in how systems
+          work  from full-stack development to deeper computer science concepts.
+        </p>
+
+        <p className="text-lg leading-7 text-slate-700 dark:text-slate-300">
+          I focus mainly on the <span className="font-semibold">MERN stack</span>,
+          continuously improving my <span className="font-semibold">DSA skills</span>,
+          and understanding <span className="font-semibold">system design</span> patterns.
+        </p>
+
+        <p className="text-lg leading-7 text-slate-700 dark:text-slate-300">
+          I aim to build full stack applications that solves real world problems. I aim to integrate my
+              system design knowledge to build applications scalable and bug-free.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
         
         
