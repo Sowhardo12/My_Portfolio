@@ -96,7 +96,7 @@ function HomePage(){
           </div>
         </section>
 
-        <section id="projects" className="py-24 border-t dark:border-slate-700"></section>
+        
         
         <section id="skills" className="py-24 border-t dark:border-slate-700">
         <div className="max-w-3xl mx-auto">
