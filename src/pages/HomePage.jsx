@@ -187,6 +187,7 @@ function HomePage(){
              <li>Git & GitHub: version control, pushing, branching</li>
                 <li>Linux (Ubuntu 24.04): Bash scripting</li>
                 <li>VS Code: main development environment</li>
+                <li>Comfortable with VIM for coding in linux</li>
                 <li>Vite: preferred React build tool</li>
                 <li>Postman: testing APIs</li>
                 <li>Docker, KVM, Virtual Machines, Kubernates (basic)</li>
