@@ -9,10 +9,16 @@ const Projects = ()=>{
     const projects = [
 
         {
-          title: "Portfolio",
-          description: "Built using ReactJS and TailwindCSS, a multipage portfolio to showcase my skills and areas of expertise",
-          stack: ["ReactJS","TailwindCSS"],
-          link: "https://github.com/Sowhardo12/My_Portfolio"
+          title: "AI Research Assistance",
+          description: "Built using ReactJS and FastAPI with Groq API integration, in order to automate the workflow of a Researcher",
+          stack: ["ReactJS","FastAPI"],
+          link: "https://github.com/Sowhardo12/AI_Research_Assistant"
+        },
+        {
+          title: "API High Traffic Simulation",
+          description: "Built a small Application with FastAPI, Ran multiple containers with Docker compose and used tools like Locus, Redis, and Nginx to Monitor & Reduce API response time",
+          stack: ["FastAPI","Docker","Redis","Nginx","Locust"],
+          link: "https://github.com/Sowhardo12/High-Traffic-Simulation-in-a-small-App"
         },
         {
           title: "Metro Rail Management System",

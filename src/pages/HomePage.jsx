@@ -62,8 +62,8 @@ function HomePage(){
         )}
         {/* Personal Section */}
         <main className="py-12">
-          <h1 className="text-4xl lightbold">Hi, I'm Sowhardo, a Final Semester CS student & a Software Engineer Aspirant.</h1>
-          <p className="mt-4 text-slate-700 dark:text-slate-300 max-w-xl">Web Apps | MERN stack | LeetCode problem solving | System Deisgn Learner</p>
+          <h1 className="text-4xl lightbold">Hi, I'm Sowhardo, a Final Semester CSE student & a Software Engineer Aspirant.</h1>
+          <p className="mt-4 text-slate-700 dark:text-slate-300 max-w-xl">Web App Development | Backend Focused | Cloud | System Design Enthusiast</p>
           <div className="mt-6 flex gap-3">
             <a href="/projects" className="px-5 py-2 rounded-md bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900">View Projects</a>
             <a href="#contact" className="px-5 py-2 rounded-md border">Contact Me</a>
@@ -90,8 +90,8 @@ function HomePage(){
             </p>
 
             <p className="text-lg leading-7 text-slate-700 dark:text-slate-300">
-              I aim to build full stack applications that solves real world problems. I aim to integrate my
-              system design knowledge to make applications scalable and bug-free.
+              I aim to build full stack applications that solves real world problems and integrate my
+              system design knowledge to make applications secure and scalable.
             </p>
           </div>
         </section> */}
@@ -129,8 +129,8 @@ function HomePage(){
         </p>
 
         <p className="text-lg leading-7 text-slate-700 dark:text-slate-300">
-          I aim to build full stack applications that solves real world problems. I aim to integrate my
-              system design knowledge to build applications scalable and bug-free.
+          I aim to build full stack applications that solves real world problems and integrate my
+              system design knowledge to build Secure and Scalable Backend.
         </p>
       </div>
 
@@ -149,11 +149,12 @@ function HomePage(){
          <div className="mb-10">
             <h3 className="text-xl font-semibold mb-4">Programming Languages</h3>
              <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-             <li><span className="font-medium">JavaScript (ES6+)</span>: primary language for web development</li>
-             <li><span className="font-medium">TypeScript</span>: currently learning</li>
-             <li><span className="font-medium">C++</span>: Using for DSA problem solving (STL)</li>
-             <li><span className="font-medium">Python</span>: medium-level knowledge, worked on machine leanring projects and libraries like pandas, matplotlib, pythorch etc.</li>
+             <li><span className="font-medium">JavaScript (ES6+)</span>: Primary language for web development</li>
+             <li><span className="font-medium">TypeScript</span>: Medium Proficiency, planning to reaplce JS with TS for type safety</li>
+             <li><span className="font-medium">C++</span>: Using for Data Structure & Algorithomic problem solving (STL)</li>
+             <li><span className="font-medium">Python</span>: Using in FastAPI, Worked on machine learning projects and libraries</li>
              <li><span className="font-medium">C</span>: Used during working with Processes, Threads, VSFS and Bash shell implementation </li>
+             <li><span className="font-medium">JAVA</span>: Used for practicing OOP concepts like Encapsulation, Abstraction, Polymorphism & Inheritance</li>
              </ul>
             </div>
 
@@ -161,11 +162,11 @@ function HomePage(){
              <div className="mb-10">
              <h3 className="text-xl font-semibold mb-4">Frontend Development</h3>
              <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-                <li>ReactJS (components, props, useState, useEffect, useContext)</li>
+                <li>ReactJS</li>
                 <li>React Routing</li>
                 <li>TailwindCSS</li>
-                <li>Basic HTML & CSS</li>
-             <li>Learning modern UI/UX principles, responsive design</li>
+  
+             
              </ul>
             </div>
 
@@ -173,10 +174,13 @@ function HomePage(){
             <div className="mb-10">
               <h3 className="text-xl font-semibold mb-4">Backend & Databases</h3>
              <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-             <li>Node.js & Express: beginner level expertise, worked on a few projects & currently learining for MERN</li>
-             <li>MongoDB: CRUD operations & schema fundamentals</li>
-             <li>SQLite: used in Django project</li>
-             <li>Django: beginner expertise, worked on university project</li>
+             <li>Node.js & Express: Used in building REST API's</li>
+             <li>FastAPI: Used during building Agentic Workflow with Groq API</li>
+             <li>Django: Worked on university project: a Metro Management System</li>
+             <li>SQLite: Used in Django project</li>
+             <li>MongoDB: Used during CRUD operations & Schema designing</li>
+             <li>PostgreSQL: Currently Learning</li>
+             
             </ul>
          </div>
 
@@ -184,14 +188,14 @@ function HomePage(){
              <div className="mb-10">
              <h3 className="text-xl font-semibold mb-4">Tools & Workflow</h3>
              <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-             <li>Git & GitHub: version control, pushing, branching</li>
-                <li>Linux (Ubuntu 24.04): Bash scripting</li>
-                <li>VS Code: main development environment</li>
-                <li>Comfortable with VIM for coding in linux</li>
-                <li>Vite: preferred React build tool</li>
-                <li>Postman: testing APIs</li>
-                <li>Docker, KVM, Virtual Machines, Kubernates (basic)</li>
-                <li>Basic knowledge on Cloud Computing</li>
+             <li>Git & GitHub: For version control</li>
+                <li>Linux: Bash scripting to automate workflow</li>
+                <li>Vim: Prefer using when working on Linux environment</li>
+                <li>Postman: Used for testing API</li>
+                <li>Locust: Used for API response Monitoring</li>
+                <li>Docker: Containerized Applications and ran multiple services using docker compose</li>
+                <li>Redis: Utilized for in memory caching </li>
+                <li>Nginx: Served as a reverse proxy and load balancer</li>
             </ul>
             </div>
 
@@ -199,9 +203,9 @@ function HomePage(){
              <div className="mb-10">
                <h3 className="text-xl font-semibold mb-4">Computer Science Fundamentals</h3>
                <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-                 <li>Data Structures & Algorithms — arrays, Linked Lists, Graphs, Trees, sorting, two-pointers, recursion</li>
-                 <li>Operating Systems — process management, scheduling (MLFQ), signals(semaphores), Multithreading</li>
-                 <li>Computer Networks — subnetting, protocols, routers, Cisco Packet Tracer basics, wireshark</li>
+                 <li>Data Structures & Algorithms — Array, Linked List, Binary Search Tree, Stack, Heap, Queue, Recursion</li>
+                 <li>Operating Systems — Process synchronization, Threading & Multithreading, CPU scheduling algorithms, Mutex & Semaphores, File systems</li>
+                 <li>Computer Networks — HTTP/HTTPS, Subnetting using VLSM, TCP/IP, OSI Layers, Router configeration with Cisco Packet Tracer, Wireshark for network monitoring</li>
                </ul>
              </div>
 
@@ -209,9 +213,9 @@ function HomePage(){
              <div>
                <h3 className="text-xl font-semibold mb-4">Currently Learning</h3>
                <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-                 <li>Learning enough concepts to comfortably build a full-stack application</li>
+                 <li>Focusing on Backend development with need-to-know basis Frontend knowledge sharping</li>
                  <li>System Design basics (scalability, caching, load balancing)</li>
-                 <li>Improving problem solving capabilites in C++</li>
+                 <li>Learning Cloud Concepts like Instances (EC2),Container Orchestration,Object Storage etc. </li>
                </ul>
              </div>
            </div>
@@ -219,12 +223,16 @@ function HomePage(){
 
         <section id="contact" className="py-24 border-t dark:border-slate-700">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-8">Contact</h2>
+            <h2 className="text-2xl font-bold mb-8">Contacts</h2>
 
             <div className="space-y-6 text-lg">
               <a href="mailto:sowhardo221@gmail.com" className="flex items-center gap-3 hover:text-indigo-500">
                 <FaEnvelope className="text-2xl"/>
-                sowhardo221@gmail.com
+                sowhardo221@gmail.com 
+              </a>
+              <a href="mailto:sowhardo.bin.atik@g.bracu.ac.bd" className="flex items-center gap-3 hover:text-indigo-500">
+                <FaEnvelope className="text-2xl"/>
+                sowhardo.bin.atik@g.bracu.ac.bd  
               </a>
               <a href="tel:+8801798516247" className="flex items-center gap-3 hover:text-indigo-500">
                 <FaPhone className="text-2xl"/>
