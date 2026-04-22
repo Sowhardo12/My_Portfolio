@@ -9,6 +9,13 @@ const Projects = ()=>{
     const projects = [
 
         {
+          title: "MetroSheba - smart transit companion",
+          description: "Built using ExpressJS, ReactJS, PostgreSQL, pgvector, GROQ LLM, Gemini embeddings & docker",
+          stack: ["Express JS","Docker","PostgreSQL"],
+          link: "https://github.com/Sowhardo12/MetroSheba",
+          live: "https://metro-sheba.vercel.app/"
+        },
+        {
           title: "AI Research Assistance",
           description: "Built using ReactJS and FastAPI with Groq API integration, in order to automate the workflow of a Researcher",
           stack: ["ReactJS","FastAPI"],
@@ -19,12 +26,6 @@ const Projects = ()=>{
           description: "Built a small Application with FastAPI, Ran multiple containers with Docker compose and used tools like Locus, Redis, and Nginx to Monitor & Reduce API response time",
           stack: ["FastAPI","Docker","Redis","Nginx","Locust"],
           link: "https://github.com/Sowhardo12/High-Traffic-Simulation-in-a-small-App"
-        },
-        {
-          title: "Metro Rail Management System",
-          description: " Made with Django+React+SQLite, an web appplication for users to get the most from the metro community",
-          stack: ["ReactJS","Typescript","Django","SQLite"],
-          link: "https://github.com/Sowhardo12/Metro_Rail_System"
         },
         {
           title: "Fire Simulator",
@@ -58,13 +59,27 @@ const Projects = ()=>{
                                  </span>
                                 ))}
                             </div>
-                            <a
-                             href={p.link}
-                             target="_blank"
-                             className="text-indigo-500 hover:underline"
-                            >
-                                 View on GitHub →
-                            </a>
+                            <div className="flex flex-col gap-2">
+                                    <a
+                                       href={p.link}
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       className="text-indigo-500 hover:underline"
+                                     >
+                                       View on GitHub →
+                                     </a>
+
+                                     {p.title === "MetroSheba - smart transit companion" && (
+                                       <a
+                                         href={p.live}
+                                         target="_blank"
+                                         rel="noopener noreferrer"
+                                         className="text-indigo-500 hover:underline"
+                                       >
+                                         View on Live →
+                                       </a>
+                                     )}
+                                    </div>
                             </div>
                      ))}
                 </div>

@@ -62,8 +62,8 @@ function HomePage(){
         )}
         {/* Personal Section */}
         <main className="py-12">
-          <h1 className="text-4xl lightbold">Hi, I'm Sowhardo, a Final Semester CSE student & a Software Engineer Aspirant.</h1>
-          <p className="mt-4 text-slate-700 dark:text-slate-300 max-w-xl">Web App Development | Backend Focused | Cloud | System Design Enthusiast</p>
+          <h1 className="text-4xl lightbold">Hi, I'm Sowhardo, a Final Semester CSE student & an AI driven Backend Developer.</h1>
+          <p className="mt-4 text-slate-700 dark:text-slate-300 max-w-xl">Full Stack Development | Backend | Cloud | Agentic AI</p>
           <div className="mt-6 flex gap-3">
             <a href="/projects" className="px-5 py-2 rounded-md bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900">View Projects</a>
             <a href="#contact" className="px-5 py-2 rounded-md border">Contact Me</a>
@@ -117,20 +117,18 @@ function HomePage(){
       {/* --- Text on Left --- */}
       <div className="text-center md:text-left space-y-6 md:space-y-4">
         <p className="text-lg leading-7 text-slate-700 dark:text-slate-300">
-          I'm Sowhardo, currently in my final semester at BRAC University.
-          I'm a software engineer aspirant with a strong interest in how systems
-          work  from full-stack development to deeper computer science concepts.
+          I'm currently in the last semester of my undergrad, continually learning and building towards my goal of
+          becoming a Software Engineer. I have strong interests in working closely with how systems work under the hood.
         </p>
 
         <p className="text-lg leading-7 text-slate-700 dark:text-slate-300">
-          I focus mainly on the <span className="font-semibold">MERN stack</span>,
-          continuously improving my <span className="font-semibold">DSA skills</span>,
-          and understanding <span className="font-semibold">system design</span> patterns.
+          I work with <span className="font-semibold">PERN stack</span> and alongside, I practice towards
+          improving my <span className="font-semibold">DSA</span> and <span className="font-semibold">System Design knowledge</span>.
+  
         </p>
 
         <p className="text-lg leading-7 text-slate-700 dark:text-slate-300">
-          I aim to build full stack applications that solves real world problems and integrate my
-              system design knowledge to build Secure and Scalable Backend.
+         My Goal is to build scalabale full stack solutions which solves real life problems, with the meaningful integration of AI & Agentic AI.
         </p>
       </div>
 
@@ -150,9 +148,9 @@ function HomePage(){
             <h3 className="text-xl font-semibold mb-4">Programming Languages</h3>
              <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
              <li><span className="font-medium">JavaScript (ES6+)</span>: Primary language for web development</li>
-             <li><span className="font-medium">TypeScript</span>: Medium Proficiency, planning to reaplce JS with TS for type safety</li>
-             <li><span className="font-medium">C++</span>: Using for Data Structure & Algorithomic problem solving (STL)</li>
-             <li><span className="font-medium">Python</span>: Using in FastAPI, Worked on machine learning projects and libraries</li>
+             <li><span className="font-medium">TypeScript</span>: Beginner, planning to reaplce JS with TS for type safety along the way</li>
+             <li><span className="font-medium">C++</span>: Use for Data Structure & Algorithomic problem solving (STL)</li>
+             <li><span className="font-medium">Python</span>: Used in FastAPI, Worked on machine learning projects and libraries</li>
              <li><span className="font-medium">C</span>: Used during working with Processes, Threads, VSFS and Bash shell implementation </li>
              <li><span className="font-medium">JAVA</span>: Used for practicing OOP concepts like Encapsulation, Abstraction, Polymorphism & Inheritance</li>
              </ul>
@@ -163,7 +161,6 @@ function HomePage(){
              <h3 className="text-xl font-semibold mb-4">Frontend Development</h3>
              <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
                 <li>ReactJS</li>
-                <li>React Routing</li>
                 <li>TailwindCSS</li>
   
              
@@ -174,12 +171,13 @@ function HomePage(){
             <div className="mb-10">
               <h3 className="text-xl font-semibold mb-4">Backend & Databases</h3>
              <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-             <li>Node.js & Express: Used in building REST API's</li>
+             <li>Node.js & Express: Used in building REST API's in Backend</li>
              <li>FastAPI: Used during building Agentic Workflow with Groq API</li>
              <li>Django: Worked on university project: a Metro Management System</li>
-             <li>SQLite: Used in Django project</li>
-             <li>MongoDB: Used during CRUD operations & Schema designing</li>
-             <li>PostgreSQL: Currently Learning</li>
+             <li>PostgreSQL: Use regularly in schema designing and vector database integration</li>
+             <li>SQLite: Used in University project</li>
+             <li>MongoDB: Used during CRUD operations & Schema designing (basic)</li>
+             
              
             </ul>
          </div>
@@ -203,9 +201,9 @@ function HomePage(){
              <div className="mb-10">
                <h3 className="text-xl font-semibold mb-4">Computer Science Fundamentals</h3>
                <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-                 <li>Data Structures & Algorithms — Array, Linked List, Binary Search Tree, Stack, Heap, Queue, Recursion</li>
+                 <li>Data Structures & Algorithms — Array, Linked List, Hash Map, Binary Search Tree, Stack, Heap, Queue, Recursion</li>
                  <li>Operating Systems — Process synchronization, Threading & Multithreading, CPU scheduling algorithms, Mutex & Semaphores, File systems</li>
-                 <li>Computer Networks — HTTP/HTTPS, Subnetting using VLSM, TCP/IP, OSI Layers, Router configeration with Cisco Packet Tracer, Wireshark for network monitoring</li>
+                 <li>Computer Networks — HTTP/HTTPS,SSL/TLS, Encryption, Subnetting using VLSM, TCP/IP, OSI Layers, Router configeration with Cisco Packet Tracer, Wireshark for network monitoring</li>
                </ul>
              </div>
 
@@ -213,9 +211,9 @@ function HomePage(){
              <div>
                <h3 className="text-xl font-semibold mb-4">Currently Learning</h3>
                <ul className="list-disc ml-6 space-y-2 text-slate-700 dark:text-slate-300">
-                 <li>Focusing on Backend development with need-to-know basis Frontend knowledge sharping</li>
-                 <li>System Design basics (scalability, caching, load balancing)</li>
-                 <li>Learning Cloud Concepts like Instances (EC2),Container Orchestration,Object Storage etc. </li>
+                 <li>Working on adding <span className="font-semibold">API rate limiter</span>. on my MetroSheba Application</li>
+                 <li>Planning to containerize the MetroSheba backend, test with API tester, and orchastrate the scaling with containers with <span className="font-semibold">Kubernates</span>. on local machine</li>
+                 <li>learning to build an <span className="font-semibold">AI Coding Agent</span> with python to understand agentic workflow in tools like Claude Code</li>
                </ul>
              </div>
            </div>
@@ -233,6 +231,10 @@ function HomePage(){
               <a href="mailto:sowhardo.bin.atik@g.bracu.ac.bd" className="flex items-center gap-3 hover:text-indigo-500">
                 <FaEnvelope className="text-2xl"/>
                 sowhardo.bin.atik@g.bracu.ac.bd  
+              </a>
+              <a href="https://www.linkedin.com/in/sowhardo-bin-atik/" className="flex items-center gap-3 hover:text-indigo-500">
+                <FaLinkedin className="text-2xl"/>
+                Linkedin
               </a>
               <a href="tel:+8801798516247" className="flex items-center gap-3 hover:text-indigo-500">
                 <FaPhone className="text-2xl"/>
