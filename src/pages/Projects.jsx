@@ -22,6 +22,13 @@ const Projects = () => {
           live: "https://metro-sheba.vercel.app/"
         },
         {
+          title: "Child Welfare System",
+          description: "Built using ASP.NET Core",
+          stack: ["ASP.NET", "React Js", "PostgreSQL"],
+          link: "https://github.com/Sowhardo12/ChildWelfare-Project"
+          // live: "https://metro-sheba.vercel.app/"
+        },
+        {
           title: "AI Research Assistance",
           description: "Built using ReactJS and FastAPI with Groq API integration, in order to automate the workflow of a Researcher",
           stack: ["ReactJS", "FastAPI"],
@@ -32,12 +39,6 @@ const Projects = () => {
           description: "Built a small Application with FastAPI, Ran multiple containers with Docker compose and used tools like Locust, Redis, and Nginx to Monitor & Reduce API response time",
           stack: ["FastAPI", "Docker", "Redis", "Nginx", "Locust"],
           link: "https://github.com/Sowhardo12/High-Traffic-Simulation-in-a-small-App"
-        },
-        {
-          title: "Fire Simulator",
-          description: "Animated game made with PyOpenGL to put water on the Fire",
-          stack: ["Python", "PyOpenGL"],
-          link: "https://github.com/Sowhardo12/Fire_simulator"
         }
     ];
 
