@@ -4,6 +4,13 @@ import { Link } from "react-router-dom";
 import agentxPDF from "../assets/promptEngr.pdf";
 import copilotPDF from "../assets/copilot365.pdf";
 import React, { useState } from 'react';
+import claudeCode101PDF from "../assets/Claude Code 101.pdf";
+import claudeCodeInActionPDF from "../assets/Claude Code in Action.pdf";
+import introAgentSkillsPDF from "../assets/Introduction to Agent Skills.pdf";
+import introMCPPDF from "../assets/Introduction to Model Context Protocol.pdf";
+import introSubagentsPDF from "../assets/Introduction to Subagents.pdf";
+import aiFluencyPDF from "../assets/AI Fluency for Builders.pdf";
+
 
 function Achievements() {
     const [isDark, setDark] = useState(() => localStorage.getItem('theme') === 'dark');     
@@ -24,6 +31,36 @@ function Achievements() {
           name: "Microsoft 365 Copilot – Ask Questions and Analyze Content",
           provider: "Microsoft",
           file: copilotPDF
+        },
+        {
+          name: "Claude Code 101",
+          provider: "Anthropic",
+          file: claudeCode101PDF
+        },
+        {
+          name: "Claude Code in Action",
+          provider: "Anthropic",
+          file: claudeCodeInActionPDF
+        },
+        {
+          name: "Introduction to Agent Skills",
+          provider: "Anthropic",
+          file: introAgentSkillsPDF
+        },
+        {
+          name: "Introduction to Model Context Protocol",
+          provider: "Anthropic",
+          file: introMCPPDF
+        },
+        {
+          name: "Introduction to Subagents",
+          provider: "Anthropic",
+          file: introSubagentsPDF
+        },
+        {
+          name: "AI Fluency for Builders",
+          provider: "Anthropic",
+          file: aiFluencyPDF
         }
     ];
 
