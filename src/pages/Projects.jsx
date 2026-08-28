@@ -22,12 +22,19 @@ const Projects = () => {
           live: "https://metro-sheba.vercel.app/"
         },
         {
-          title: "Child Welfare System",
-          description: "Built using ASP.NET Core",
-          stack: ["ASP.NET", "React Js", "PostgreSQL"],
-          link: "https://github.com/Sowhardo12/ChildWelfare-Project"
-          // live: "https://metro-sheba.vercel.app/"
+          title: "Field Dispatch System - AI-powered work order dispatch",
+          description: "Built using NestJS, Next.js, PostgreSQL, MongoDB, Redis, Bull Queue & Socket.IO",
+          stack: ["NestJS", "Next.js", "PostgreSQL"],
+          link: "https://github.com/Sowhardo12/Field_Dispatch_System",
+          live: ""
         },
+        // {
+        //   title: "Child Welfare System",
+        //   description: "Built using ASP.NET Core",
+        //   stack: ["ASP.NET", "React Js", "PostgreSQL"],
+        //   link: "https://github.com/Sowhardo12/ChildWelfare-Project"
+        //   // live: "https://metro-sheba.vercel.app/"
+        // },
         {
           title: "AI Research Assistance",
           description: "Built using ReactJS and FastAPI with Groq API integration, in order to automate the workflow of a Researcher",

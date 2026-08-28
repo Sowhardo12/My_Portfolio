@@ -79,17 +79,19 @@ function HomePage(){
                         <div className="absolute top-1/4 right-10 w-72 h-72 bg-indigo-500/10 dark:bg-indigo-500/5 rounded-full blur-3xl pointer-events-none"></div>
                         
                         <div className="border-l-2 border-indigo-500 pl-4 md:pl-6 space-y-4">
-                            <span className="text-xs font-mono uppercase tracking-widest text-indigo-600 dark:text-indigo-400 font-semibold">01 // Who am I?</span>
+                            <span className="text-xs font-mono uppercase tracking-widest text-indigo-600 dark:text-indigo-400 font-semibold">~bash: whoami &gt; me.txt</span>
                             <h1 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-slate-900 dark:text-white leading-[1.15]">
-                                Hi, I'm Sowhardo, a Final Semester CSE student & an <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-500 dark:from-indigo-400 dark:to-cyan-400">Backend focused Full-Stack Developer</span>
+                                Hi, I'm Sowhardo, a CSE Graduate & an <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-500 dark:from-indigo-400 dark:to-cyan-400">Aspiring Software Engineer (Backend Focused) </span>
                             </h1>
                         </div>
                         
                         {/* Interactive Tag Chips */}
                         <div className="mt-8 flex flex-wrap gap-2 font-mono text-[11px] max-w-2xl text-slate-500 dark:text-slate-400">
                             <span className="px-2.5 py-1 rounded bg-slate-200/60 dark:bg-[#161D30] border border-slate-300/40 dark:border-slate-800">Node.js</span>
+                                                        <span className="px-2.5 py-1 rounded bg-slate-200/60 dark:bg-[#161D30] border border-slate-300/40 dark:border-slate-800">Nest.Js</span>
                             <span className="px-2.5 py-1 rounded bg-slate-200/60 dark:bg-[#161D30] border border-slate-300/40 dark:border-slate-800">Docker</span>
                             <span className="px-2.5 py-1 rounded bg-slate-200/60 dark:bg-[#161D30] border border-slate-300/40 dark:border-slate-800">PostgreSQL</span>
+                                                        <span className="px-2.5 py-1 rounded bg-slate-200/60 dark:bg-[#161D30] border border-slate-300/40 dark:border-slate-800">Redis</span>
                             <span className="px-2.5 py-1 rounded bg-slate-200/60 dark:bg-[#161D30] border border-slate-300/40 dark:border-slate-800">AI Integration</span>
                         </div>
 
@@ -121,17 +123,18 @@ function HomePage(){
 
                             <div className="md:col-span-8 space-y-4 text-sm sm:text-base leading-relaxed text-slate-600 dark:text-slate-300">
                                 <div className="flex items-center gap-2 font-mono text-xs text-indigo-600 dark:text-indigo-400 font-bold mb-2">
-                                    <span>[ABOUT ME]</span>
+                                    <span>[cat me.txt]</span>
                                     <hr className="flex-grow border-slate-200 dark:border-slate-800" />
                                 </div>
                                 <p>
-                                    I'm currently in the last semester of my undergrad, continually learning and building towards my goal of becoming a Software Engineer. I have strong interests in working closely with how systems work under the hood.
+                                    I've graduated with a background in Computer Science, and I'm continually learning and building towards my goal of becoming a Software Engineer. I have strong interests in working closely with how systems work under the hood.
                                 </p>
                                 <p>
-                                    I work with the <span className="font-semibold text-slate-900 dark:text-white underline decoration-indigo-500 decoration-2 underline-offset-4">PERN stack</span> and alongside, I practice towards improving my <span className="font-semibold text-slate-900 dark:text-white">DSA</span> and <span className="font-semibold text-slate-900 dark:text-white">System Design knowledge</span>.
+                                    
+                                    I focus on backend development with the <span className="font-semibold text-slate-900 dark:text-white underline decoration-indigo-500 decoration-2 underline-offset-4">PERN stack</span> stack, alongside practicing DSA and System Design.
                                 </p>
                                 <p>
-                                    My goal is to build scalable full stack solutions which solve real life problems, with the meaningful integration of AI & Agentic AI.
+My goal is to build scalable backend solutions which solve real life problems, with the meaningful integration of AI & Agentic AI.
                                 </p>
                             </div>
                         </div>
@@ -140,7 +143,7 @@ function HomePage(){
                     {/* High-Performance Skills Control Panel Layout */}
                     <section id="skills" className="py-16 border-t border-slate-200 dark:border-slate-800/80">
                         <div className="mb-8">
-                            <h2 className="text-xs font-mono uppercase tracking-widest text-indigo-600 dark:text-indigo-400 font-bold">02 // Technical Control Panel</h2>
+                            <h2 className="text-xs font-mono uppercase tracking-widest text-indigo-600 dark:text-indigo-400 font-bold">~bash: cd technical_panel && cat skills.md</h2>
                             <p className="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight mt-1">Skills & Core Competencies</p>
                         </div>
                         
@@ -207,10 +210,10 @@ function HomePage(){
                         <div className="mt-4 p-4 rounded-xl bg-slate-100 dark:bg-[#161D30] border border-slate-200 dark:border-slate-800/80 font-mono text-xs">
                             <div className="text-indigo-600 dark:text-indigo-400 font-bold uppercase mb-2">Actively Learning</div>
                             <ul className="space-y-1.5 list-inside list-square text-slate-600 dark:text-slate-300 text-[11px]">
-                              <li>Learning fundamentals of<span className="font-semibold text-slate-900 dark:text-white"> ASP.NET</span> & expanding the features of Child Welfare System Project</li>
-                                <li>Adding an architectural <span className="font-semibold text-slate-900 dark:text-white">API rate limiter</span> layer into the MetroSheba Project</li>
-                                <li>Local workload orchestration and validation handling via a local cluster set in <span className="font-semibold text-slate-900 dark:text-white">Kubernetes</span>.</li>
-                                <li>Practicing up DSA by <span className="font-semibold text-slate-900 dark:text-white"> Lerning New Algorithmic concepts</span> on LeetCode</li>
+                                    <li>Deepening core <span className="font-semibold text-slate-900 dark:text-white">CS fundamentals</span> alongside advanced backend development concepts</li>
+                                <li>Exploring <span className="font-semibold text-slate-900 dark:text-white">Agentic AI</span> & AI-assisted development workflows as a fresher engineer</li>
+                                <li>Practicing <span className="font-semibold text-slate-900 dark:text-white">system design</span> & problem solving through building, breaking, and debugging real projects</li>
+                                <li>Practicing up DSA by <span className="font-semibold text-slate-900 dark:text-white"> Learning New Algorithmic concepts</span> on LeetCode</li>
                             </ul>
                         </div>
                     </section>
@@ -219,7 +222,7 @@ function HomePage(){
                     <section id="contact" className="py-16 border-t border-slate-200 dark:border-slate-800/80">
                         <div className="max-w-3xl mx-auto">
                             <div className="text-center md:text-left mb-8">
-                                <h2 className="text-xs font-mono uppercase tracking-widest text-indigo-600 dark:text-indigo-400 font-bold">03 // Communication</h2>
+                                <h2 className="text-xs font-mono uppercase tracking-widest text-indigo-600 dark:text-indigo-400 font-bold">~bash: ssh -p 2026 sowhardo@letsconnect</h2>
                                 <p className="text-xl font-extrabold text-slate-900 dark:text-white mt-1">Connect with me</p>
                             </div>
                             
